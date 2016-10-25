@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+	font-family: 'Century Gothic', sans-serif;
+
+}
+
+.main-home{
+	background: url("../images/main-background.png") no-repeat;
+	height: 575px;
+    text-align: center;
+    background-size: cover;
+    position: relative;
+    color: #7f9eb2;
+}
+
+.main-name {
+	font-size: 10em;
+	padding-top: 10%;
+	font-weight: bold;
+	text-shadow: 2px 2px #000000;
+}
+
+.main-subname{
+	font-size: 1.6em;
+	font-weight: bold;
+	text-shadow: 2px 2px #000000;
+	opacity: 0.8;
+}
+.section-title hr{
+	text-align:center;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#overview-video{
+	background: url(../images/bg2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	text-align: center;
+}
