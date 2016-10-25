@@ -42,3 +42,7 @@
 	background-attachment: scroll;
 	text-align: center;
 }
+
+.hover-bg .hover-text {
+    height: 75%;
+}
