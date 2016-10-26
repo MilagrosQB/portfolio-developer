@@ -8,7 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="font-awesome-4.2.0/css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="css/jasny-bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
-  <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="shortcut icon" href="favicon.ico">
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -30,10 +31,10 @@
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#s-about-me">SOBRE MÍ</a></li>
-						<li><a href="#s-skill">HABILIDADES</a></li>
-						<li><a href="#s-projects">PROYECTOS</a></li>
-						<li><a href="#footer">CONTACTO</a></li>
+						<li><a href="#s-about-me" class="page-scroll">SOBRE MÍ</a></li>
+						<li><a href="#s-skill" class="page-scroll">HABILIDADES</a></li>
+						<li><a href="#s-projects" class="page-scroll">PROYECTOS</a></li>
+						<li><a href="#s-contact" class="page-scroll">CONTACTO</a></li>
 					</ul>
 				</div>
 			</div>
@@ -78,7 +79,7 @@
 	</section>
 	
 	<section id="s-skill" class="">
-		<div id="meet-us">
+		<div id="tf-about">
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-8 col-md-offset-2">
@@ -86,26 +87,72 @@
                         <h2>Habilidades</h2>
                         <hr>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime facere recusandae voluptas, porro qui dignissimos harum. Nisi quam aspernatur et minima labore harum molestiae quidem reprehenderit. Beatae modi, doloribus cupiditate.</p>
-                    <a href="#services" class="down-btn page-scroll">
-                        <span class="fa fa-angle-down"></span>
-                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <div class="section-title">
+                            <h2>Some words <strong>about us</strong></h2>
+                            <hr>
+                            <div class="clearfix"></div>
+                        </div>
+                        <p class="intro">We love building and rebuilding brands through our  specific skills. Using colour, fonts, and illustration, we brand companies in a way they will never forget.</p>
+                        <ul class="about-list">
+                            <li>
+                                <span class="fa fa-dot-circle-o"></span>
+                                <strong>Mission</strong> - <em>We deliver uniqueness and quality</em>
+                            </li>
+                            <li>
+                                <span class="fa fa-dot-circle-o"></span>
+                                <strong>Skills</strong> - <em>Delivering fast and excellent results</em>
+                            </li>
+                            <li>
+                                <span class="fa fa-dot-circle-o"></span>
+                                <strong>Clients</strong> - <em>Satisfied clients thanks to our experience</em>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <div class="section-title">
+                            <h2>Some words <strong>about us</strong></h2>
+                            <hr>
+                            <div class="clearfix"></div>
+                        </div>
+                        <p class="intro">We love building and rebuilding brands through our  specific skills. Using colour, fonts, and illustration, we brand companies in a way they will never forget.</p>
+                        <ul class="about-list">
+                            <li>
+                                <span class="fa fa-dot-circle-o"></span>
+                                <strong>Mission</strong> - <em>We deliver uniqueness and quality</em>
+                            </li>
+                            <li>
+                                <span class="fa fa-dot-circle-o"></span>
+                                <strong>Skills</strong> - <em>Delivering fast and excellent results</em>
+                            </li>
+                            <li>
+                                <span class="fa fa-dot-circle-o"></span>
+                                <strong>Clients</strong> - <em>Satisfied clients thanks to our experience</em>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 	</section>
 
-	<section id="s-projects">
+	<section id="s-projects" class="">
 		    <div id="tf-works">
-        <div class="container"> <!-- Container -->
+        <div class="container">
             <div class="section-title text-center center">
                 <h2>Proyectos</h2>
                 <div class="line">
                     <hr>
                 </div>
                 <div class="clearfix"></div>
-                <small><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea temporibus, ad possimus laboriosam rerum iure, placeat modi nulla quo esse? Recusandae reprehenderit impedit aliquid deleniti est dolores consectetur nobis sapiente?</em></small>
+                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto harum aliquid quo cupiditate assumenda odio id atque magni? Qui cumque, corrupti nemo aspernatur! Sapiente dolor, blanditiis, veniam doloribus quo dolorem?</small>
             </div>
             <div class="space"></div>
 
@@ -244,7 +291,7 @@
     </div>
 	</section>
 
-	<footer>
+	<footer id="s-contact" class="">
 		 <div id="tf-contact">
         <div class="container text-center">
             <div class="section-title">
@@ -275,10 +322,18 @@
         </div>
     </nav>
 	</footer>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/jasny-bootstrap.min.js"></script>
 
-	<script type="text/javascript"  href="js/bootstrap.js"></script>
-	<script type="text/javascript"  href="js/jquery.min.js"></script>
-	<script type="text/javascript"  href="js/main.js"></script>
-	<script type="text/javascript"  href="js/app.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/typed.js"></script>
+		<script type="text/javascript"  src="js/main.js"></script>
+		<script type="text/javascript"  src="js/app.js"></script>
+    
+
 </body>
 </html>
