@@ -60,6 +60,12 @@
     height: 75%;
 }
 
+.sr-only {
+	width: 100%;
+    height: auto;
+	clip:auto;
+}
+
 #tf-about {
     padding: 70px 0;
 }
