@@ -15,7 +15,7 @@
     color: #7f9eb2;
 }
 
-.main-name {
+.main-name{
 	font-size: 10em;
 	padding-top: 10%;
 	font-weight: bold;
@@ -34,6 +34,10 @@
 	padding: 15px;
 }
 
+.info-me{
+	font-size: 18px;
+}
+
 #overview-video{
 	background: url(../images/bg2.jpg);
 	background-size: cover;
@@ -41,6 +45,16 @@
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	text-align: center;
+
+}
+
+#overview-video a span.fa.fa-play{
+	padding: 15% 0;
+}
+
+#tf-works h2{
+	padding-top: 8%;
+
 }
 
 .hover-bg .hover-text {

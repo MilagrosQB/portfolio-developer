@@ -47,9 +47,6 @@ h6{
 	letter-spacing: 2px;
 }
 
-p{
-	font-weight: 400;
-}
 hr{
 	width: 50px;
 	border-color: #c59a6d;
@@ -239,7 +236,7 @@ a.down-btn span.fa.fa-angle-down {
 #overview-video .overlay{
 	background: rgba(34, 34, 34, 0.85);
 	height: auto;
-	min-height: 200px;
+	min-height: 480px;
 	padding: 12% 0 ;
 }
 
