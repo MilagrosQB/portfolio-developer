@@ -8,6 +8,7 @@
 
 .main-home{
 	background: url("../images/main-background.png") no-repeat;
+	background-attachment: fixed;
 	height: 575px;
     text-align: center;
     background-size: cover;
@@ -61,11 +62,31 @@
 }
 
 .sr-only {
-	width: 100%;
+    width: 95%;
     height: auto;
-	clip:auto;
+    clip: auto;
+    color: #000000;
 }
 
 #tf-about {
     padding: 70px 0;
+}
+
+#s-contact {
+	background: url("../images/bg-contact.jpg") no-repeat;
+	background-attachment: fixed;
+	height: 275px;
+    text-align: center;
+    background-size: cover;
+    position: relative;
+    color: #7f9eb2;	
+}
+
+
+.social-media{
+	font-size: 35px;
+}
+
+.margin-bottom{
+	margin-bottom: 8%;
 }
