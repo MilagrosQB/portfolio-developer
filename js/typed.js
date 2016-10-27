@@ -299,7 +299,7 @@
     };
 
     $.fn.typed.defaults = {
-        strings: ["¡Hola! ¿Qué tal?","Mi nombre es Milagros","Soy Comunicadora Audiovisual","también soy","Desarrolladora Front-end", "MILAGROS QUISPE"],
+        strings: ["¡Hola! ¿Qué tal?", "Bienvenidos a mi portafolio", "Mi nombre es Milagros","Soy Comunicadora Audiovisual y \n" + "Front-end Developer Jr","", "MILAGROS QUISPE"],
         // typing speed
         typeSpeed: 0,
         // time before typing starts
