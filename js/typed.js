@@ -299,7 +299,7 @@
     };
 
     $.fn.typed.defaults = {
-        strings: ["These are the default values...", "You know what you should do?", "Use your own!", "Have a great day!"],
+        strings: ["¡Hola! ¿Qué tal?","Mi nombre es Milagros","Soy Comunicadora Audiovisual","también soy","Desarrolladora Front-end", "MILAGROS QUISPE"],
         // typing speed
         typeSpeed: 0,
         // time before typing starts
