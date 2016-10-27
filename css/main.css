@@ -7,7 +7,6 @@
 }
 
 .main-home{
-	margin-top: 5%;
 	background: url("../images/main-background.png") no-repeat;
 	background-attachment: fixed;
 	height: 575px;
@@ -18,7 +17,7 @@
 }
 
 .space-main{
-	padding-top: 15%;
+	padding-top: 20%;
 }
 
 .main-name{
@@ -69,14 +68,16 @@
 }
 
 .sr-only {
-    width: 95%;
+	width: 5%;
     height: auto;
     clip: auto;
-    color: #000000;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 #tf-about {
     padding: 70px 0;
+    font-size: 1.3em;
 }
 
 #s-contact {
