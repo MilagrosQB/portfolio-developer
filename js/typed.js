@@ -299,7 +299,7 @@
     };
 
     $.fn.typed.defaults = {
-        strings: ["¡Hola! ¿Qué tal?", "Bienvenidos a mi portafolio", "Mi nombre es Milagros","Soy Comunicadora Audiovisual y \n" + "Front-end Developer Jr","", "MILAGROS QUISPE"],
+        strings: ["These are the default values...", "You know what you should do?", "Use your own!", "Have a great day!"],
         // typing speed
         typeSpeed: 0,
         // time before typing starts
@@ -331,3 +331,11 @@
 
 }(window.jQuery);
 
+      $(function(){
+          $("#head-title").typed({
+            strings: ["Bienvenidos a mi portafolio", "Mi nombre es Milagros","Soy Front-End Developer Jr", "Comunicadora Audiovisual", "MILAGROS QUISPE"],
+            typeSpeed: 100,
+            loop: true,
+            startDelay: 100
+          });
+      });    
