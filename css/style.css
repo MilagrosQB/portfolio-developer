@@ -79,11 +79,12 @@ a:focus{
 .content{
 	padding-top: 16%;
 }
-.header-text.btn{
+
+/* .header-text.btn{
 	border: 1px solid #ffffff;
 	border-radius: 0;
-	padding: 15px 30px;
-	height: 120px;
+	padding: 5% 3%;
+	margin: 5% 1%;
 }
 .header-text.btn:hover{
 	color: inherit;
@@ -97,7 +98,7 @@ a:focus{
 	outline: thin dotted transparent;
 	outline: none;
 	outline-offset: -2px;
-}
+} */
 .typed-cursor {
 	opacity: 1;
 	padding: 10px 2px;
