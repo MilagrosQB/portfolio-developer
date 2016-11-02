@@ -54,6 +54,10 @@ text-align: center;
   padding-top: 40px;
 }
 
+.space-margin{
+  margin-top: 1%;
+}
+
 .section-title hr{
   text-align:center;
   margin: 0 auto;
