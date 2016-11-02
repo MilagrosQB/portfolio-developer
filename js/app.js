@@ -1,8 +1,8 @@
       $(function(){
           $("#typed").typed({
-            strings: ["Bienvenidos a mi portafolio", "Mi nombre es Milagros","Soy Front-End Developer Jr", "Comunicadora Audiovisual", "MILAGROS QUISPE"],
+            strings: ["Bienvenidos a mi portafolio", "Mi nombre es Milagros","Soy Front-End Developer Jr", "Comunicadora Audiovisual", "MILAGROS QUISPE BALBOA"],
             typeSpeed: 100,
-            loop: true,
+            loop: false,
             startDelay: 100
           });
       });    
