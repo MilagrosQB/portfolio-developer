@@ -1,6 +1,6 @@
       $(function(){
           $("#typed").typed({
-            strings: ["Bienvenidos a mi portafolio", "Mi nombre es Milagros","Soy Front-End Developer Jr", "Comunicadora Audiovisual", "MILAGROS QUISPE BALBOA"],
+            strings: ["MILAGROS QUISPE BALBOA"],
             typeSpeed: 100,
             loop: false,
             startDelay: 100

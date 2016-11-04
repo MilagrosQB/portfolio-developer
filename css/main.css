@@ -6,28 +6,28 @@
 }
 
 .navbar, .nav-default{
-  background-color: #d9534f;
-  border-color: #de1717;
+  background-color: #3399ff;
+  border-color: #2069b1;
 }
 
 .nav > li {
-position: relative;
-display: block;
-text-align: center;
+  position: relative;
+  display: block;
+  text-align: center;
 }
 
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:focus {
   color: #FFFFFF;
-  background-color: #d9534f;
+  background-color: #3399ff;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color: #d9534f;
+  color: #3399ff;
   background-color: #FFFFFF;
 }
 
 .main-home{
-  background: url("../images/main-background.png") no-repeat;
+  background: url("../images/main-backgroundv2.jpg") no-repeat;
   background-attachment: fixed;
   height: auto;
   min-height: 710px;
@@ -67,12 +67,12 @@ text-align: center;
 h2 {
   text-transform: uppercase;
   font-size: 20px;
-  color: #fe423f;
+  color: #2069b1;
 }
 
 hr {
   width: 50px;
-  border-color: #fe423f;
+  border-color: #2069b1;
 }
 
 ul, ol{
@@ -90,12 +90,12 @@ a:focus{
 
 a.down-btn span.fa.fa-angle-down {
   font-size: 26px;
-  border: 1px solid #d9534f;
+  border: 1px solid #2069b1;
   border-radius: 2px;
   padding: 7px 5px;
   position: relative;
   cursor: pointer;
-  color: #d9534f;
+  color: #2069b1;
   margin-top: 30px;
 }
 
@@ -127,6 +127,7 @@ a.down-btn span.fa.fa-angle-down {
 
 .info-me{
   font-size: 18px;
+  padding-top: 15%;
 }
 
 #overview-video{
@@ -255,11 +256,11 @@ a.down-btn span.fa.fa-angle-down {
 
 .social-media li a span{
   font-size: 35px;
-  color: #d9534f;
+  color: #3399ff;
 }
 
 .social-media li a span:hover {
-  color: #c9302c;
+  color: #2069b1;
 }
 
 .margin-bottom{
