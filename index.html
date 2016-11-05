@@ -10,33 +10,71 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="shortcut icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Cantora+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 
 <body>
 	<header>
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand page-scroll" href="#s-main"><img src="images/logotipo-portfolio.png" name="logo"></a>
-				</div>
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#s-about-me" class="page-scroll">SOBRE MÍ</a></li>
+<!--     <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand page-scroll" href="#s-main"><img src="images/logotipo-portfolio.png" name="logo"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#s-about-me" class="page-scroll">SOBRE MÍ</a></li>
             <li><a href="#s-skill" class="page-scroll">HABILIDADES</a></li>
             <li><a href="#s-projects" class="page-scroll">PROYECTOS</a></li>
-						<li><a href="#s-reel" class="page-scroll">REEL</a></li>						
-						<li><a href="#s-contact" class="page-scroll">CONTACTO</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</header>
+        <li><a href="#s-reel" class="page-scroll">REEL</a></li>            
+        <li><a href="#s-contact" class="page-scroll">CONTACTO</a></li>
+      </ul>
+    </div>
+  </div>
+</nav> -->
+    <nav class="navbar navbar-fixed-left navbar-minimal animate" role="navigation">
+      <div class="navbar-toggler animate">
+        <span class="menu-icon"></span>
+      </div>
+      <ul class="navbar-menu animate">
+        <li>
+          <a href="#s-about-me" class="animate page-scroll">
+            <span class="desc animate">Sobre mí</span>
+            <span class="fa fa-user"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#s-skill" class="animate page-scroll">
+            <span class="desc animate">Habilidades</span>
+            <span class="fa fa-bomb"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#s-projects" class="animate page-scroll">
+            <span class="desc animate">Proyectos</span>
+            <span class="fa fa-laptop"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#s-contact" class="animate page-scroll">
+            <span class="desc animate">Contacto</span>
+            <span class="fa fa-bolt"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#s-main" class="animate page-scroll">
+            <span class="desc animate">Home</span>
+            <span class="fa fa-angle-up"></span>
+          </a>
+        </li>                
+      </ul>
+    </nav>  
+  </header>
 
 	<section id="s-main" class="main-home">
     <div class="container">
@@ -53,20 +91,18 @@
             <div class="row text-center">
                 <div class="col-md-12">
                     <div class="section-title">
-                        <h2>Sobre mí</h2>
+                        <p class="title-about-me">Sobre mí</h2>
                         <hr>
                     </div>
-                    <div class="col-md-6">
-                      <img src="images/photo-profile-template.jpg" alt="perfil Milagros Quispe Balboa">
-                    </div>
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                       <div class="info-me">
+                        <img src="images/personaje_mecloseup.png" class="space-margin" alt="">
                         <p>¡Hola! Mi nombre es <strong>Milagros Quispe Balboa</strong>.</p>
-                        <p>Tengo 25 años, joven aún. En constante aprendizaje. Estudié Ciencias de la Comunicación, porque me apasionan los videos. Luego, comencé a tomarle cariño al desarrollo web, sobretodo al front-end. Me encantan las mascotas, en especial los gatos. Para el futuro, me gustaría convertirme en una hábil front-end developer y sí nada me lo impide, ¡ser una full stack!</p>
+                        <p>Tengo 25 años, joven aún. En constante aprendizaje. Estudié Ciencias de la Comunicación, porque me apasionan los videos. Luego, comencé a tomarle cariño al desarrollo web, sobretodo al front-end. Me encantan las mascotas, los videojuegos y la música instrumental. Para el futuro, me gustaría convertirme en una hábil front-end developer y sí nada me lo impide, ¡ser una full stack!</p>
                       </div>
                     </div>
                 </div>
-                    <a href="#s-reel" class="down-btn page-scroll">
+                    <a href="#s-skill" class="down-btn page-scroll">
                         <span class="fa fa-angle-down"></span>
                     </a>
             </div>
