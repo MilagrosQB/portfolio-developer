@@ -46,7 +46,7 @@
     width: 60px;    
     min-height: 60px;
     max-height: 100%;
-    background-color: rgb(51, 51, 51);
+    background-color: transparent;
     border-width: 0px;
     z-index: 1000;
   }
@@ -54,7 +54,6 @@
   .navbar-minimal > .navbar-toggler {
     position: relative;
     min-height: 60px;
-    border-bottom: 1px solid rgb(81, 81, 81);
     z-index: 100;
     cursor: pointer;
   }
@@ -301,7 +300,7 @@ a.down-btn span.fa.fa-angle-down {
   padding: 0% 4%;
 }
 
-#overview-video{
+/* #overview-video{
   background: url(../images/background-video.jpg);
   background-size: cover;
   background-position: center;
@@ -322,7 +321,7 @@ a.down-btn span.fa.fa-angle-down {
   text-align: center;
   margin: auto 0;
   padding: 15% 0;
-}
+} */
 
 .hover-bg .hover-text {
   height: 75%;
@@ -332,7 +331,14 @@ a.down-btn span.fa.fa-angle-down {
   background: radial-gradient(circle, rgba(255,255,255,0.9), rgba(218, 219, 221,0.9));
 }
 
-#s-skill .about-text span{
+#s-skill .title-skill{
+  color: #000000;
+  font-size: 2.8em;
+  padding-top: 5%;  
+  text-transform: uppercase;
+}
+
+/* #s-skill .about-text span{
   text-align: center;
   font-size: medium;
 }
@@ -341,37 +347,110 @@ a.down-btn span.fa.fa-angle-down {
   padding: 70px 0;
   font-size: 1.3em;
 }
+ */
+
+/* Porcentaje que se muestra en cada barra */
+.contador:after{
+  content: "%";
+}
+
+/* Cada una de las barras de skills */
+
+.skill-type{
+  font-size: 1.5em;
+  text-align: center;
+  color: #2069b1;
+}
+
+.skill-type hr{
+  text-align:center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.skillbar {
+  position: relative;
+  display: block;
+  margin-bottom: 1.6em;
+  width: 100%;
+  background: rgba(193,193,193,0.7);
+  height: 2.7em;
+  border-radius: 3px;
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  transition-property: width, background-color;
+}
+
+.skill-name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7em;
+  font-weight: bold;
+  font-size: 1em;
+  color: #ffffff;
+  background: #6adcfa;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  text-align: center;
+}
+
+.skill-name span {
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+  height: 2.7em;
+  line-height: 2.7em;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.skillBarra {
+  height: 2.7em;
+  background: #6adcfa;
+  border-radius: 3px;
+}
+
+.progress{
+  background-color: rgba(193,193,193,0.7);
+}
 
 .progress-bar-color-html {
-  background-color: #bf0c0c;
+  background-color: rgb(230, 126, 34);
 }
 
 .progress-bar-color-css {
-  background-color: #e76a05;
+  background-color: rgb(41, 169, 223);
 }
 
 .progress-bar-color-javascript {
-  background-color: #ffc600;
+  background-color: rgb(218, 195, 83);
 }
 
 .progress-bar-color-bootstrap {
-  background-color: #47bc00;
+  background-color: rgb(226, 73, 77);
 }
 
 .progress-bar-color-jquery {
-  background-color: #865200;
+  background-color: rgb(29, 153, 190);
 }
 
-.progress-bar-color-github {
-  background-color: #2bb3f3;
+
+.progress-bar-color-premiere {
+  background-color: rgb(67, 80, 158);
+}
+
+.progress-bar-color-ae{
+  background-color: rgb(154, 160, 198);
 }
 
 .progress-bar-color-illustrator {
-  background-color: #9748a8;
+  background-color: rgb(255, 144, 71);
 }
 
-.progress-bar-color-premiere {
-  background-color: #05007b;
+.progress-bar-color-photoshop{
+  background-color: rgb(14, 93, 140);
 }
 
 #s-projects{
