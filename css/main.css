@@ -300,6 +300,16 @@ a.down-btn span.fa.fa-angle-down {
   padding: 0% 4%;
 }
 
+#separador-about-me{
+  width: 100%;
+  height: 3em;
+  background: url(../images/separador1.svg) repeat-x top center;
+  background-size: auto;
+  z-index: 1;
+  position: relative;
+}  
+
+
 /* #overview-video{
   background: url(../images/background-video.jpg);
   background-size: cover;
@@ -323,8 +333,8 @@ a.down-btn span.fa.fa-angle-down {
   padding: 15% 0;
 } */
 
-.overview-video{
-  text-align: center;
+.vimeo-video {
+    text-align: center;
 }
 
 .hover-bg .hover-text {
@@ -333,6 +343,8 @@ a.down-btn span.fa.fa-angle-down {
 
 #s-skill{
   background: radial-gradient(circle, rgba(255,255,255,0.9), rgba(218, 219, 221,0.9));
+  margin-top: -3em; 
+  margin-bottom: -3em;      
 }
 
 #s-skill .title-skill{
@@ -352,6 +364,18 @@ a.down-btn span.fa.fa-angle-down {
   font-size: 1.3em;
 }
  */
+
+
+#separator-skills {
+    width: 100%;
+    height: 3em;
+    background: url(../images/separador2.svg) no-repeat top center;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    margin-top: -3em;
+}  
+
 
 .skill-type{
   font-size: 1.5em;
@@ -501,12 +525,30 @@ a.down-btn span.fa.fa-angle-down {
 #s-random {
   background: url("../images/bg-contact.jpg") no-repeat;
   background-attachment: fixed;
-  height: 250px;
+  height: 350px;
   background-size: cover;
+  margin-bottom: -4em;  
+}
+
+#separator-contact{
+  width: 100%;
+  height: 4em;
+  background: url(../images/separador3.svg) no-repeat top center;
+  background-size: cover;
+  z-index: 1;
+  position: relative;
+  margin-top: -4em;
+}
+
+#s-contact .title-contact{
+  color: #FFFFFF;
+  font-size: 2.8em;
+  padding-top: 5%;  
+  text-transform: uppercase;
 }
 
 #s-contact {
-  background-color: #0A0618;
+  background-color: #031427;
   color: #FFFFFF;
   text-align: center;
   height: auto;
@@ -517,12 +559,12 @@ a.down-btn span.fa.fa-angle-down {
 }
 
 #s-contact button a {
-  color: #FFFFFF; 
+  color: #031427; 
 }
 
 .social-media li a span{
-  font-size: 35px;
-  color: #3399ff;
+  font-size: 50px;
+  color: #FFFFFF;
 }
 
 .social-media li a span:hover {
