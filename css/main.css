@@ -323,6 +323,10 @@ a.down-btn span.fa.fa-angle-down {
   padding: 15% 0;
 } */
 
+.overview-video{
+  text-align: center;
+}
+
 .hover-bg .hover-text {
   height: 75%;
 }
@@ -348,13 +352,6 @@ a.down-btn span.fa.fa-angle-down {
   font-size: 1.3em;
 }
  */
-
-/* Porcentaje que se muestra en cada barra */
-.contador:after{
-  content: "%";
-}
-
-/* Cada una de las barras de skills */
 
 .skill-type{
   font-size: 1.5em;
@@ -436,7 +433,6 @@ a.down-btn span.fa.fa-angle-down {
   background-color: rgb(29, 153, 190);
 }
 
-
 .progress-bar-color-premiere {
   background-color: rgb(67, 80, 158);
 }
@@ -454,11 +450,28 @@ a.down-btn span.fa.fa-angle-down {
 }
 
 #s-projects{
-  background-color: #fdfcfc;
+  background-color: #2F527A;
 }
 
-.div-projects h2{
+.div-projects .section-title .title-projects{
+  font-size: 2.5em;
+  text-align: center;
   padding-top: 6%;
+  color: #FFFFFF;
+}
+
+.project-type{
+  font-size: 1.5em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.project-type hr{
+  text-align:center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px;
+  border-color: #FFFFFF;  
 }
 
 .portfolio-item .hover-bg{
@@ -493,9 +506,8 @@ a.down-btn span.fa.fa-angle-down {
 }
 
 #s-contact {
-  position: relative;
-  background-attachment: fixed;
-  background-size: cover;
+  background-color: #0A0618;
+  color: #FFFFFF;
   text-align: center;
   height: auto;
 }
