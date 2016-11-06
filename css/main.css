@@ -186,19 +186,25 @@
 
 
 .main-home{
-  background: url("../images/main-backgroundv2.jpg") no-repeat;
-  background-attachment: fixed;
+  position: relative;
+  background: radial-gradient(circle, rgba(255,255,255,0.9), rgba(218, 219, 221,0.9));
+  width: 100%;
   height: auto;
   min-height: 710px;
-  text-align: center;
-  background-size: cover;
-  position: relative;
-  color: #7f9eb2;
+}
+
+.logo-main{
+  width: 75%;
+  height: auto;
 }
 
 
 .space-main{
-  padding-top: 20%;
+  padding-top: 12%;
+  font-size: 2em;
+  font-weight: bold; 
+  text-align: center;
+  color: #2069b1;  
 }
 
 .space{
@@ -389,6 +395,7 @@ a.down-btn span.fa.fa-angle-down {
 
 .skill-type{
   font-size: 1.5em;
+  font-weight: bold;  
   text-align: center;
   color: #2069b1;
 }
