@@ -1,3 +1,4 @@
+
 $(function () {
     /* START OF DEMO JS - NOT NEEDED */
     if (window.location == window.parent.location) {
@@ -18,14 +19,14 @@ $(function () {
 	})
 });
 
-      $(function(){
-          $("#typed").typed({
-            strings: ["MILAGROS QUISPE BALBOA"],
-            typeSpeed: 100,
-            loop: false,
-            startDelay: 100
-          });
-      });    
+$(function(){
+	$("#typed").typed({
+		strings: ["FRONT-END DEVELOPER","COMUNICADORA AUDIOVISUAL", "CATLOVER ♥", "GAMER AMATEUR", "ENGLISH STUDENT", "FOTOGRAFA AMATEUR"],
+		typeSpeed: 120,
+		loop: true,
+		startDelay: 100,
+	});
+});    
 
 
 function main() {
@@ -61,3 +62,4 @@ function main() {
 	}());
 }
 main();
+
