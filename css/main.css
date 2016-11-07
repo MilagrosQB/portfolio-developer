@@ -59,7 +59,7 @@
 
 .navbar-minimal.open > .navbar-toggler,
 .navbar-minimal > .navbar-toggler:hover {
-  background-color: #3399ff;
+  background-color: rgb(81, 81, 81);
 }
 
 .navbar-minimal > .navbar-toggler > span {
@@ -241,7 +241,7 @@ a.down-btn span.fa.fa-angle-up {
 
 .info-me{
   font-size: 20px;
-  padding: 0% 4%;
+  padding: 0% 10%;
 }
 
 .box-typed{
@@ -267,10 +267,6 @@ a.down-btn span.fa.fa-angle-up {
   position: relative;
 }  
 
-.vimeo-video {
-    text-align: center;
-}
-
 .hover-bg .hover-text {
   height: 75%;
 }
@@ -290,6 +286,10 @@ a.down-btn span.fa.fa-angle-up {
 
 .div-skills {
   padding-bottom: 10%;
+}
+
+.row-alt{
+  padding: 0% 10%;
 }
 
 #separator-skills {
@@ -406,6 +406,7 @@ a.down-btn span.fa.fa-angle-up {
 .div-projects .section-title .title-projects{
   font-size: 2.5em;
   text-align: center;
+  text-transform: uppercase;
   padding-top: 6%;
   color: #FFFFFF;
 }
@@ -448,10 +449,15 @@ a.down-btn span.fa.fa-angle-up {
   opacity: 1;
 }
 
+.vimeo-video {
+    text-align: center;
+}
+
 #s-random {
-  background: url("../images/bg-contact.jpg") no-repeat;
+  background: url("../images/background-video.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;  
   height: 350px;
   margin-bottom: -4em;  
 }

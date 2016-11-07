@@ -1,5 +1,3 @@
-$(document).ready(function() {
-
 	$(function () {
 	    /* START OF DEMO JS - NOT NEEDED */
 	    if (window.location == window.parent.location) {
@@ -22,7 +20,7 @@ $(document).ready(function() {
 
 	$(function(){
 		$("#typed").typed({
-			strings: ["FRONT-END DEVELOPER","COMUNICADORA AUDIOVISUAL", "CATLOVER ♥", "GAMER AMATEUR", "ENGLISH STUDENT", "FOTOGRAFA AMATEUR"],
+			strings: ["FRONT-END DEVELOPER","COMUNICADORA AUDIOVISUAL", "CATLOVER ♥", "GAMER AMATEUR", "ENGLISH STUDENT", "FOTÓGRAFA AFICIONADA"],
 			typeSpeed: 120,
 			loop: true,
 			startDelay: 100,
@@ -63,5 +61,3 @@ $(document).ready(function() {
 		}());
 	}
 	main();
-
-});
