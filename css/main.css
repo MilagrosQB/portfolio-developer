@@ -26,124 +26,121 @@
   background-color: #FFFFFF;
 }
 
+.animate {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
 
-    .animate {
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-  }
+.navbar-fixed-left {
+  position: fixed;
+  top: auto;
+  left: 0%;
+  border-radius: 0px;
+}
 
-  .navbar-fixed-left {
-    position: fixed;
-    top: auto;
-    left: 0%;
-    border-radius: 0px;
-  }
+.navbar-minimal {
+  width: 60px;    
+  min-height: 60px;
+  max-height: 100%;
+  background-color: transparent;
+  border-width: 0px;
+  z-index: 1000;
+}
 
-  .navbar-minimal {
-    width: 60px;    
-    min-height: 60px;
-    max-height: 100%;
-    background-color: transparent;
-    border-width: 0px;
-    z-index: 1000;
-  }
+.navbar-minimal > .navbar-toggler {
+  position: relative;
+  min-height: 60px;
+  z-index: 100;
+  cursor: pointer;
+}
 
-  .navbar-minimal > .navbar-toggler {
-    position: relative;
-    min-height: 60px;
-    z-index: 100;
-    cursor: pointer;
-  }
+.navbar-minimal.open > .navbar-toggler,
+.navbar-minimal > .navbar-toggler:hover {
+  background-color: #3399ff;
+}
 
-  .navbar-minimal.open > .navbar-toggler,
-  .navbar-minimal > .navbar-toggler:hover {
-    background-color: #3399ff;
-  }
+.navbar-minimal > .navbar-toggler > span {
+  position: absolute;
+  top: 25%;
+  right: 25%;
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/logotipo-menu.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  -webkit-transition: -webkit-transform .3s ease-out 0s;
+  -moz-transition: -moz-transform .3s ease-out 0s;
+  -o-transition: -moz-transform .3s ease-out 0s;
+  -ms-transition: -ms-transform .3s ease-out 0s;
+  transition: transform .3s ease-out 0s;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
 
-  .navbar-minimal > .navbar-toggler > span {
-    position: absolute;
-    top: 25%;
-    right: 25%;
-    width: 30px;
-    height: 30px;
-    background-image: url(../images/logotipo-menu.png);
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    -webkit-transition: -webkit-transform .3s ease-out 0s;
-    -moz-transition: -moz-transform .3s ease-out 0s;
-    -o-transition: -moz-transform .3s ease-out 0s;
-    -ms-transition: -ms-transform .3s ease-out 0s;
-    transition: transform .3s ease-out 0s;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
+.navbar-minimal > .navbar-menu {
+  position: absolute;
+  top: -1000px;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  z-index: 50;
+  background-color: rgb(51, 51, 51);
+  background-color: rgba(51, 51, 51, 0.8);
+}
+.navbar-minimal > .navbar-menu > li {
+  margin: 0px;
+  padding: 0px;
+  border-width: 0px;
+  height: 54px;
+}
+.navbar-minimal > .navbar-menu > li > a {
+  position: relative;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  padding: 20px 23px;
+  text-align: left;
+  cursor: pointer;
+  border-bottom: 1px solid rgb(81, 81, 81);
+  width: 100%;
+  text-decoration: none;
+  margin: 0px;
+}
 
-  .navbar-minimal > .navbar-menu {
-    position: absolute;
-    top: -1000px;
-    left: 0px;
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    z-index: 50;
-    background-color: rgb(51, 51, 51);
-    background-color: rgba(51, 51, 51, 0.8);
-  }
-  .navbar-minimal > .navbar-menu > li {
-    margin: 0px;
-    padding: 0px;
-    border-width: 0px;
-    height: 54px;
-  }
-  .navbar-minimal > .navbar-menu > li > a {
-    position: relative;
-    display: inline-block;
-    color: rgb(255, 255, 255);
-    padding: 20px 23px;
-    text-align: left;
-    cursor: pointer;
-    border-bottom: 1px solid rgb(81, 81, 81);
-    width: 100%;
-    text-decoration: none;
-    margin: 0px;
-  }
+.navbar-minimal > .navbar-menu > li > a:last-child {
+  border-bottom-width: 0px;
+}
+.navbar-minimal > .navbar-menu > li > a:hover {
+  background-color: #3399ff;
+}
+.navbar-minimal > .navbar-menu > li > a > .glyphicon {
+  float: right;
+}
 
-  .navbar-minimal > .navbar-menu > li > a:last-child {
-    border-bottom-width: 0px;
-  }
-  .navbar-minimal > .navbar-menu > li > a:hover {
-    background-color: #3399ff;
-  }
-  .navbar-minimal > .navbar-menu > li > a > .glyphicon {
-    float: right;
-  }
+.navbar-minimal.open {
+  width: 320px;
+}
 
-  .navbar-minimal.open {
-    width: 320px;
-  }
+.navbar-minimal.open > .navbar-toggler > span {
+  background-position:0 -3px;
+  -webkit-transform: rotate(-720deg);
+  -moz-transform: rotate(-720deg);
+  -o-transform: rotate(-720deg);
+  -ms-transform: rotate(-720deg);
+  transform: rotate(-720deg);
+}
 
-  .navbar-minimal.open > .navbar-toggler > span {
-    background-position:0 -3px;
-    -webkit-transform: rotate(-720deg);
-    -moz-transform: rotate(-720deg);
-    -o-transform: rotate(-720deg);
-    -ms-transform: rotate(-720deg);
-    transform: rotate(-720deg);
-  }
-
-  .navbar-minimal.open > .navbar-menu {
-    top: 60px;
-    width: 100%;
-    min-height: 100%;
-  }
-
-
+.navbar-minimal.open > .navbar-menu {
+  top: 60px;
+  width: 100%;
+  min-height: 100%;
+}
 
 .main-home{
   position: relative;
@@ -157,7 +154,6 @@
   width: 75%;
   height: auto;
 }
-
 
 .space-main{
   padding-top: 12%;
@@ -214,29 +210,18 @@ a.down-btn span.fa.fa-angle-down {
   position: relative;
   cursor: pointer;
   color: #2069b1;
-  margin-top: 30px;
+  margin: 30px 0px;
 }
 
-.header-text.btn{
-  border: 2px solid #ffffff;
-  border-radius: 0;
-  padding: 5% 3%;
-  margin: 5% 1%;
-}
-
-.header-text.btn:hover{
-  color: inherit;
-}
-
-.header-text.btn:focus, 
-.header-text.btn:active:focus, 
-.header-text.btn.active:focus, 
-.header-text.btn.focus, 
-.header-text.btn:active.focus, 
-.header-text.btn.active.focus {
-  outline: thin dotted transparent;
-  outline: none;
-  outline-offset: -2px;
+a.down-btn span.fa.fa-angle-up {
+  font-size: 26px;
+  border: 1px solid #2069b1;
+  border-radius: 2px;
+  padding: 7px 5px;
+  position: relative;
+  cursor: pointer;
+  color: #2069b1;
+  margin: 30px 0px;
 }
 
 #s-about-me{
@@ -273,7 +258,6 @@ a.down-btn span.fa.fa-angle-down {
   white-space: pre-wrap;
 }
 
-
 #separador-about-me{
   width: 100%;
   height: 3em;
@@ -282,30 +266,6 @@ a.down-btn span.fa.fa-angle-down {
   z-index: 1;
   position: relative;
 }  
-
-
-/* #overview-video{
-  background: url(../images/background-video.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  text-align: center;
-}
-
-.overlay{
-  background: rgba(34, 34, 34, 0.85);
-  height: auto;
-  min-height: 480px;
-  padding: 12% 0 ;
-}
-
-#overview-video a span.fa.fa-play{
-  font-size: 40px;
-  color: #fff;
-  text-align: center;
-  margin: auto 0;
-  padding: 15% 0;
-} */
 
 .vimeo-video {
     text-align: center;
@@ -328,31 +288,19 @@ a.down-btn span.fa.fa-angle-down {
   text-transform: uppercase;
 }
 
-/* #s-skill .about-text span{
-  text-align: center;
-  font-size: medium;
-}
-
 .div-skills {
-  padding: 70px 0;
-  font-size: 1.3em;
-}
- */
-
-.div-skills {
-    padding-bottom: 10%;
+  padding-bottom: 10%;
 }
 
 #separator-skills {
-    width: 100%;
-    height: 3em;
-    background: url(../images/separador2.svg) no-repeat top center;
-    background-size: cover;
-    z-index: 1;
-    position: relative;
-    margin-top: -3em;
+  width: 100%;
+  height: 3em;
+  background: url(../images/separador2.svg) no-repeat top center;
+  background-size: cover;
+  z-index: 1;
+  position: relative;
+  margin-top: -3em;
 }  
-
 
 .skill-type{
   font-size: 1.5em;
@@ -502,9 +450,9 @@ a.down-btn span.fa.fa-angle-down {
 
 #s-random {
   background: url("../images/bg-contact.jpg") no-repeat;
+  background-size: cover;
   background-attachment: fixed;
   height: 350px;
-  background-size: cover;
   margin-bottom: -4em;  
 }
 
