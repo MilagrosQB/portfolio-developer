@@ -61,11 +61,20 @@
 }
 
 @media only screen and (max-width: 460px){
-
 	#s-main{
 		min-height: 350px;
 	}
-
+	.logo-main {
+	    padding-bottom: 6%;
+	}
+	.space-main{
+	  padding-top: 12%;
+	  font-size: 1em;
+	  font-weight: bold; 
+	  text-align: center;
+	  text-transform: uppercase;
+	  color: #2069b1;  
+	}
 	h3 {
 	    font-size: 12px;
 	}
