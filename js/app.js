@@ -27,6 +27,7 @@
 		});
 	});    
 
+	 $('[data-toggle="tooltip"]').tooltip();
 
 	function main() {
 		(function () {

@@ -302,6 +302,10 @@ a.down-btn span.fa.fa-angle-up {
   margin-top: -3em;
 }  
 
+.tooltip {
+  font-size: 2.2em;
+}
+
 .skill-type{
   font-size: 1.5em;
   font-weight: bold;  
@@ -492,6 +496,10 @@ a.down-btn span.fa.fa-angle-up {
 
 #s-contact button a {
   color: #031427; 
+}
+
+.space-contact{
+  padding-top: 50px;
 }
 
 .social-media li a span{
