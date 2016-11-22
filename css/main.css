@@ -155,8 +155,13 @@
   height: auto;
 }
 
+.frontend-developer{
+  width: 45%;
+  height: auto;
+}
+
 .space-main{
-  padding-top: 12%;
+  padding-top: 5%;
   font-size: 2em;
   font-weight: bold; 
   text-align: center;
