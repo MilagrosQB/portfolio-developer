@@ -144,8 +144,7 @@
 
 .main-home{
   position: relative;
-  background: radial-gradient(circle, rgba(208, 207, 207, 0.9), rgba(152, 152, 152, 0.9));
-  width: 100%;
+  background: #000000;  width: 100%;
   height: auto;
   min-height: 710px;
 }
@@ -158,10 +157,11 @@
 .frontend-developer{
   width: 45%;
   height: auto;
+  padding-top: 6%;
 }
 
 .space-main{
-  padding-top: 5%;
+  padding-top: 20%;
   font-size: 2em;
   font-weight: bold; 
   text-align: center;
@@ -228,6 +228,10 @@ a.down-btn span.fa.fa-angle-up {
   color: #2069b1;
   margin: 30px 0px;
 }
+  
+.title-responsive{
+  width: 18%;
+  }
 
 #s-about-me{
   background-color: #0A0618;
@@ -276,10 +280,19 @@ a.down-btn span.fa.fa-angle-up {
   height: 75%;
 }
 
+.hover-bg h4{
+  color: #FFFFFF;
+  text-align: center;
+}
+
 #s-skill{
   background: radial-gradient(circle, rgba(255,255,255,0.9), rgba(218, 219, 221,0.9));
   margin-top: -3em; 
   margin-bottom: -3em;      
+}
+
+.space-skill, .space-projects{
+  padding-top: 10%;
 }
 
 #s-skill .title-skill{
