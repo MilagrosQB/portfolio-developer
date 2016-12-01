@@ -144,7 +144,8 @@
 
 .main-home{
   position: relative;
-  background: #000000;  width: 100%;
+  background: #000000;  
+  width: 100%;
   height: auto;
   min-height: 710px;
 }

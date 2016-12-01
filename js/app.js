@@ -1,3 +1,7 @@
+$(document).ready(function() {
+	new WOW().init();
+})
+
 	$(function () {
 	    /* START OF DEMO JS - NOT NEEDED */
 	    if (window.location == window.parent.location) {
